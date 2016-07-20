@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Stasiun Asal" />
+
+    <Spinner
+        android:dropDownSelector="#e4eafc"
+        android:id="@+id/originSpinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView"
+        android:layout_width="fill_parent"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/originSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Stasiun Tujuan" />
+
+    <Spinner
+        android:id="@+id/destinSpinner"
+        android:layout_alignTop="@id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView2"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/destinSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Tgl.Berangkat" />
+
+    <Spinner
+        android:id="@+id/tglSpinner"
+        android:layout_alignLeft="@id/destinSpinner"
+        android:layout_alignTop="@id/textView3"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tglSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Kereta" />
+
+    <Spinner
+        android:id="@+id/keretaSpinner"
+        android:layout_alignLeft="@id/tglSpinner"
+        android:layout_below="@id/tglSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/keretaSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Nama" />
+
+    <EditText
+        android:ems="10"
+        android:id="@+id/txtNama"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@id/keretaSpinner"
+        android:layout_below="@id/keretaSpinner"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtNama"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="No.KTP" />
+
+    <EditText
+        android:id="@+id/txtNoKTP"
+        android:layout_alignLeft="@id/txtNama"
+        android:layout_below="@id/txtNama"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtNoKTP"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="No Telp" />
+
+    <EditText
+        android:id="@+id/txtNoTelp"
+        android:layout_alignLeft="@id/txtNoKTP"
+        android:layout_below="@id/txtNoKTP"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="phone"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtNoTelp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_alignLeft="@id/txtNoTelp"
+        android:layout_below="@id/txtNoTelp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtEmail"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Alamat" />
+
+    <EditText
+        android:id="@+id/txtAlamat"
+        android:layout_alignLeft="@id/txtEmail"
+        android:layout_alignTop="@id/textView9"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+
+    <RadioGroup
+        android:layout_alignRight="@id/txtAlamat"
+        android:layout_below="@id/txtAlamat"
+        android:id="@+id/RGServer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/RBServer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="https://tiket.kereta-api.co.id/"/>
+
+        <RadioButton
+            android:id="@+id/RBServer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://tiket2.kereta-api.co.id/"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_alignRight="@id/txtAlamat"
+        android:layout_below="@id/RGServer"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="searchClick"
+        android:text="Search" />
+
+</RelativeLayout>
