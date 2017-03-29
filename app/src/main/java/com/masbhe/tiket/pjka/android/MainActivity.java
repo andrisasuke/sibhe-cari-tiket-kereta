@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         this.id = new Locale("in", "ID");
         this.sdf = new SimpleDateFormat("EEEE, dd MMM yyyy", this.id);
 
-//        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
         initStasiunDroplist();
         checkSharedPref();
     }
@@ -217,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("PROGO", "PROGO"));
         list.add(new DroplistItem("BENGAWAN", "BENGAWAN"));
         list.add(new DroplistItem("JAKA TINGKIR", "JAKA TINGKIR"));
-        list.add(new DroplistItem("GAYA BARU MALAM", "GAYA BARU MALAM"));
+        list.add(new DroplistItem("GAYA BARU MALAM SELATAN", "GAYA BARU MALAM SELATAN"));
         list.add(new DroplistItem("GAJAHWONG", "GAJAHWONG"));
         list.add(new DroplistItem("SENJA UTAMA SOLO", "SENJA UTAMA SOLO"));
         list.add(new DroplistItem("ARGO DWI PANGGA", "ARGO DWI PANGGA"));

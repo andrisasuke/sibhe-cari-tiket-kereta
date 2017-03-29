@@ -14,7 +14,6 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 
-
 public class SearchChromeActivity extends AppCompatActivity {
     private String _alamat;
     private String _destin;
