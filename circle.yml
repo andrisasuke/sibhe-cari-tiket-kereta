@@ -36,9 +36,9 @@ test:
 #    - adb shell input keyevent 82
 
   override:
-#    - ./gradlew clean assemble
+    - ./gradlew clean assemble
     # This will run the tests:
-   - ./gradlew assemble connectedDebugAndroidTest -PdisablePreDex --console=plain --info
+#   - ./gradlew assemble connectedDebugAndroidTest -PdisablePreDex --console=plain --info
 
   post:
       - cp -r app/build/outputs $CIRCLE_ARTIFACTS
