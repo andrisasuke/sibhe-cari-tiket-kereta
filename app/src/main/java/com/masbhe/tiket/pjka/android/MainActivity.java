@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("ARGO LAWU", "ARGO LAWU"));
         list.add(new DroplistItem("TAKSAKA MALAM", "TAKSAKA MALAM"));
         list.add(new DroplistItem("BRANTAS", "BRANTAS"));
-        list.add(new DroplistItem("BRANTAS LEB", "BRANTAS LEB"));
+        list.add(new DroplistItem("BRANTAS LEBARAN", "BRANTAS LEBARAN"));
         list.add(new DroplistItem("MATARMAJA", "MATARMAJA"));
         list.add(new DroplistItem("MATARMAJA LEB", "MATARMAJA LEB"));
         list.add(new DroplistItem("MAJAPAHIT", "MAJAPAHIT"));
@@ -239,30 +239,50 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("MUTIARA SELATAN", "MUTIARA SELATAN"));
         list.add(new DroplistItem("LODAYA MALAM ", "LODAYA MALAM "));
         list.add(new DroplistItem("TURANGGA", "TURANGGA"));
+        list.add(new DroplistItem("ARGO SINDORO LEBARAN", "ARGO SINDORO LEBARAN"));
+        list.add(new DroplistItem("ARGO MURIA LEBARAN", "ARGO MURIA LEBARAN"));
+        list.add(new DroplistItem("ARGO MURIA TAMBAHAN", "ARGO MURIA TAMBAHAN"));
+        list.add(new DroplistItem("SEMBRANI LEBARAN", "SEMBRANI LEBARAN"));
 
-        list.add(new DroplistItem("SENJA UTAMA YOGYA" , "SENJA UTAMA YOGYA"));
+        list.add(new DroplistItem("SENJA UTAMA YK" , "SENJA UTAMA YK"));
         list.add(new DroplistItem("MENOREH", "MENOREH"));
+        list.add(new DroplistItem("MENOREH TAMBAHAN", "MENOREH TAMBAHAN"));
+        list.add(new DroplistItem("MENOREH LEBARAN", "MENOREH LEBARAN"));
         list.add(new DroplistItem("BANGUNKARTA", "BANGUNKARTA"));
         list.add(new DroplistItem("ARGO MURIA", "ARGO MURIA"));
         list.add(new DroplistItem("ARGO ANGGREK PAGI", "ARGO ANGGREK PAGI"));
         list.add(new DroplistItem("ARGO SINDORO", "ARGO SINDORO"));
+        list.add(new DroplistItem("ARGO SINDORO TAMBAHAN", "ARGO SINDORO TAMBAHAN"));
         list.add(new DroplistItem("SEMBRANI", "SEMBRANI"));
         list.add(new DroplistItem("ARGO ANGGREK MALAM", "ARGO ANGGREK MALAM"));
         list.add(new DroplistItem("KERTAJAYA", "KERTAJAYA"));
+        list.add(new DroplistItem("KERTAJAYA LEBARAN", "KERTAJAYA LEBARAN"));
         list.add(new DroplistItem("SAWUNGGALIH MALAM", "SAWUNGGALIH MALAM"));
+        list.add(new DroplistItem("SAWUNGGALIH", "SAWUNGGALIH"));
         list.add(new DroplistItem("KUTOJAYA UTARA", "KUTOJAYA UTARA"));
+        list.add(new DroplistItem("KUTOJAYA UTARA LEBARAN", "KUTOJAYA UTARA LEBARAN"));
         list.add(new DroplistItem("KUTOJAYA UTARA TAMBAHAN", "KUTOJAYA UTARA TAMBAHAN"));
-        list.add(new DroplistItem("MATARMAJA LEBARAN", "MATARMAJA LEBARAN"));
+        list.add(new DroplistItem("PURWOJAYA LEBARAN", "PURWOJAYA LEBARAN"));
+        list.add(new DroplistItem("PURWOJAYA", "PURWOJAYA"));
+        list.add(new DroplistItem("SERAYU", "SERAYU"));
+        list.add(new DroplistItem("ARGO PARAHYANGAN", "ARGO PARAHYANGAN"));
+     
         list.add(new DroplistItem("MANTAB LEBARAN", "MANTAB LEBARAN"));
         list.add(new DroplistItem("TAWANG JAYA LEBARAN", "TAWANG JAYA LEBARAN"));
-        list.add(new DroplistItem("TAKSAKA PAGI", "TAKSAKA PAGI"));
-        list.add(new DroplistItem("TAKSAKA PAGI LEBARAN", "TAKSAKA PAGI LEBARAN"));
+        
+        list.add(new DroplistItem("KLB TAMBAHAN GMR-SGU", "KLB TAMBAHAN GMR-SGU"));
+        list.add(new DroplistItem("KLB TAMBAHAN SGU-GMR", "KLB TAMBAHAN SGU-GMR"));
+        list.add(new DroplistItem("KLB TAMBAHAN PSE-PWS", "KLB TAMBAHAN PSE-PWS"));
+        list.add(new DroplistItem("KLB TAMBAHAN PWS-PSE", "KLB TAMBAHAN PWS-PSE"));
+        list.add(new DroplistItem("TAKSAKA", "TAKSAKA"));
+        list.add(new DroplistItem("TAKSAKA LEBARAN", "TAKSAKA LEBARAN"));
+        list.add(new DroplistItem("TAKSAKA TAMBAHAN", "TAKSAKA TAMBAHAN"));
         list.add(new DroplistItem("ARGO DWIPANGGA FAKULTATIF","ARGO DWIPANGGA FAKULTATIF"));
         list.add(new DroplistItem("ARGO LAWU FAKULTATIF", "ARGO LAWU FAKULTATIF"));
         list.add(new DroplistItem("GAJAYANA LEBARAN", "GAJAYANA LEBARAN"));
         list.add(new DroplistItem("TAKSAKA MALAM LEBARAN", "TAKSAKA MALAM LEBARAN"));
         list.add(new DroplistItem("GUMARANG", "GUMARANG"));
-        list.add(new DroplistItem("FAJAR UTAMA YOGYA", "FAJAR UTAMA YOGYA"));
+        list.add(new DroplistItem("FAJAR UTAMA YK", "FAJAR UTAMA YK"));
 
         Collections.sort(list, new Comparator<DroplistItem>() {
             @Override
