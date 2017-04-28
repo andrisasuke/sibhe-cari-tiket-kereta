@@ -31,5 +31,11 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="291a970753d6ab8585003c7ea6c431893aeba291"
+            />
+
     </application>
 </manifest>

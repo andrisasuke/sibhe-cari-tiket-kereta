@@ -20,8 +20,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Locale;
 
+import com.crashlytics.android.Crashlytics;
 import com.masbhe.tiket.pjka.android.helper.DroplistAdapter;
 import com.masbhe.tiket.pjka.android.helper.DroplistItem;
+
+import io.fabric.sdk.android.Fabric;
 
 public class MainActivity extends AppCompatActivity {
     private EditText _txtAlamat;
@@ -40,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
-
         this.id = new Locale("in", "ID");
         this.sdf = new SimpleDateFormat("EEEE, dd MMM yyyy", this.id);
 
