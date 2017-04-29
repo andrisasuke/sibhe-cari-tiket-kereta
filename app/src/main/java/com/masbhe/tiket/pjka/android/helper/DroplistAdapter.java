@@ -28,8 +28,9 @@ public class DroplistAdapter implements SpinnerAdapter {
     }
 
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
-        TextView textview = (TextView) ((LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(this.mode, null);
-        textview.setText(((DroplistItem) this.list.get(position)).getLabel());
+        TextView textview = (TextView) ((LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE))
+                .inflate(this.mode, parent, false);
+        textview.setText(this.list.get(position).getLabel());
         return textview;
     }
 
@@ -62,8 +63,9 @@ public class DroplistAdapter implements SpinnerAdapter {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-        TextView textview = (TextView) ((LayoutInflater) this.context.getSystemService("layout_inflater")).inflate(this.mode, null);
-        textview.setText(((DroplistItem) this.list.get(position)).getLabel());
+        TextView textview = (TextView) ((LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE))
+                .inflate(this.mode, parent, false);
+        textview.setText(this.list.get(position).getLabel());
         return textview;
     }
 
