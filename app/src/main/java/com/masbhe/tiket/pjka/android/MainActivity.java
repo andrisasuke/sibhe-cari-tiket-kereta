@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("BRANTAS", "BRANTAS"));
         list.add(new DroplistItem("BRANTAS LEBARAN", "BRANTAS LEBARAN"));
         list.add(new DroplistItem("MATARMAJA", "MATARMAJA"));
-        list.add(new DroplistItem("MATARMAJA LEB", "MATARMAJA LEB"));
+        list.add(new DroplistItem("MATARMAJA LEBARAN", "MATARMAJA LEBARAN"));
         list.add(new DroplistItem("MAJAPAHIT", "MAJAPAHIT"));
         list.add(new DroplistItem("TAWANG JAYA", "TAWANG JAYA"));
         list.add(new DroplistItem("TAWANG JAYA LEB", "TAWANG JAYA LEB"));
@@ -286,6 +286,16 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("TAKSAKA MALAM LEBARAN", "TAKSAKA MALAM LEBARAN"));
         list.add(new DroplistItem("GUMARANG", "GUMARANG"));
         list.add(new DroplistItem("FAJAR UTAMA YK", "FAJAR UTAMA YK"));
+        list.add(new DroplistItem("SRI TAJUNG", "SRI TAJUNG"));
+        list.add(new DroplistItem("LOGAWA", "LOGAWA"));
+        list.add(new DroplistItem("KAHURIPAN", "KAHURIPAN"));
+        list.add(new DroplistItem("ARGO BROMO ANGGREK", "ARGO BROMO ANGGREK"));
+        list.add(new DroplistItem("BOGOWONTO LEBARAN", "BOGOWONTO LEBARAN"));
+        list.add(new DroplistItem("PASUNDAN", "PASUNDAN"));
+        list.add(new DroplistItem("PWS TAMBAHAN", "PWS TAMBAHAN"));
+        list.add(new DroplistItem("PWS-TAMBAHAN", "PWS-TAMBAHAN"));
+        list.add(new DroplistItem("GAYA BARU MALAM SELATAN LEBARAN", "GAYA BARU MALAM SELATAN LEBARAN"));
+
 
         Collections.sort(list, new Comparator<DroplistItem>() {
             @Override

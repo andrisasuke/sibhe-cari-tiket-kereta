@@ -36,7 +36,7 @@ test:
 #    - adb shell input keyevent 82
 
   override:
-    - ./gradlew clean assemble
+    - ./gradlew assembleDebug assembleRelease crashlyticsUploadDistributionRelease
     # This will run the tests:
 #   - ./gradlew assemble connectedDebugAndroidTest -PdisablePreDex --console=plain --info
 

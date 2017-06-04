@@ -5,6 +5,16 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
+    signingConfigs {
+
+        release {
+            storeFile file('sibhe_cari_tiket.jks')
+            storePassword "caritiket"
+            keyAlias "caritiket"
+            keyPassword "caritiket"
+        }
+    }
+
     defaultConfig {
         applicationId "pjka.tiket.masbhe.com.sibhe_caritiket"
         minSdkVersion 14
@@ -15,7 +25,10 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            debuggable true
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ext.betaDistributionGroupAliases="cari-tiket-internal-tester"
         }
     }
 
