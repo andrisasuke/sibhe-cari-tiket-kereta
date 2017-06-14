@@ -292,6 +292,10 @@ public class MainActivity extends AppCompatActivity {
         list.add(new DroplistItem("PWS TAMBAHAN", "PWS TAMBAHAN"));
         list.add(new DroplistItem("PWS-TAMBAHAN", "PWS-TAMBAHAN"));
         list.add(new DroplistItem("GAYA BARU MALAM SELATAN LEBARAN", "GAYA BARU MALAM SELATAN LEBARAN"));
+        list.add(new DroplistItem("MATARAM PREMIUM", "MATARAM PREMIUM"));
+        list.add(new DroplistItem("TAWANG JAYA PREMIUM", "TAWANG JAYA PREMIUM"));
+        list.add(new DroplistItem("MANTAB PREMIUM", "MANTAB PREMIUM"));
+        list.add(new DroplistItem("GBMS PREMIUM", "GBMS PREMIUM"));
 
         Collections.sort(list, new Comparator<DroplistItem>() {
             @Override
